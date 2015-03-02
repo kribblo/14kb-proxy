@@ -5,7 +5,7 @@
          version="3.1">
     <servlet>
         <servlet-name>14kb</servlet-name>
-        <servlet-class>com.kribblo.github.fourteenkilobytes.FourteenKiloByteProxyServlet</servlet-class>
+        <servlet-class>com.github.kribblo.fourteenkilobytes.FourteenKiloByteProxyServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>14kb</servlet-name>

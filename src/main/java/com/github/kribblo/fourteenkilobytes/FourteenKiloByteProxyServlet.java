@@ -1,4 +1,4 @@
-package com.kribblo.github.fourteenkilobytes;
+package com.github.kribblo.fourteenkilobytes;
 
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
