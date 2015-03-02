@@ -38,7 +38,7 @@ If the site is heavier, take a look at what parts arrive before the cap and make
 
 By simply loading the site via the proxy in a regular browser or [WebPageTest](http://www.webpagetest.org/) it's possible to see what will be rendered using the first 14kB. Looking at the network diagrams or the source will also tell which external resources are starting to download at that point. Look for inlining, or make sure that all are essential.
 
-It can also be used in some automation, perhaps by verifying that a list of matching resources or elements, or some marker is always within the 14 kB. Depends on the site, but maybe you want the whole <head> with inlines to fit, or that the main logo or splash screen is included.
+It can also be used in some automation, perhaps by verifying that a list of matching resources or elements, or some marker is always within the 14 kB. Depends on the site, but maybe you want the whole `<head>` with inlines to fit, or that the main logo or splash screen is included.
 
 ## More info
 
