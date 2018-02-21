@@ -22,7 +22,7 @@ Starts a proxy server on the default port 14336 with the target http://localhost
 
 Starts proxy on port 9999 instead, visit http://localhost:9999
 
-	mvn jetty:run -Dtarget=https://example.com
+	mvn jetty:run -D 14kb.target=https://example.com
 
 Starts proxy with custom target, any URL reachable from the machine running on the proxy is fair game.
 
